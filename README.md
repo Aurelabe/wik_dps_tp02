@@ -70,10 +70,3 @@ Vous pouvez tester le serveur en envoyant des requêtes `GET` :
 ## Dépendances
 
 Ce projet n'utilise aucune bibliothèque externe, il se base uniquement sur les bibliothèques standards de Rust.
-
-## Contribution
-
-Si vous souhaitez contribuer à ce projet, n'hésitez pas à ouvrir une pull request.
-```
-
-Maintenant, tu peux copier ce fichier `README.md` dans ton projet GitHub sans souci !
