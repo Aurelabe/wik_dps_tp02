@@ -19,8 +19,8 @@ Ce projet implémente un serveur HTTP simple en Rust. Le serveur écoute les req
 1. Clonez ce dépôt :
 
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-repository.git
-   cd votre-repository
+   git clone https://github.com/Aurelabe/rust-http-server.git
+   cd rust-http-server
    ```
 
 2. Compilez et exécutez le serveur :
@@ -29,7 +29,7 @@ Ce projet implémente un serveur HTTP simple en Rust. Le serveur écoute les req
    cargo run
    ```
 
-   Par défaut, le serveur écoutera sur le port `8001`. Vous pouvez changer ce port en définissant la variable d'environnement `PING_LISTEN_PORT` :
+   Par défaut, le serveur écoutera sur le port `8001`. Vous pouvez changer ce port en définissant la variable d'environnement `PING_LISTEN_PORT` , par exemple :
 
    ```bash
    PING_LISTEN_PORT=9000 cargo run
@@ -55,10 +55,10 @@ Vous pouvez tester le serveur en envoyant des requêtes `GET` :
    {"headers": "Host: localhost:8001\r\nUser-Agent: curl/8.8.0\r\nAccept: */*"}
    ```
 
-2. Tester une route non définie (par exemple `/pinggg`) qui renverra une erreur `404` :
+2. Tester une route non définie (par exemple `/pingg`) qui renverra une erreur `404` :
 
    ```bash
-   curl -i localhost:8001/pinggg
+   curl -i localhost:8001/pingg
    ```
 
    Exemple de réponse pour toute autre route :
