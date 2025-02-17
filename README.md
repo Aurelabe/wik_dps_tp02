@@ -64,17 +64,6 @@ sudo docker run -p 8080:8080 wik_dps_tp02_multi
 
 Le serveur sera accessible sur `http://localhost:8080`.
 
-## Structure du projet
-```
-wik_dps_tp02/
-├── src/
-│   └── main.rs
-├── Cargo.toml
-├── Dockerfile
-├── Dockerfile.multi
-└── README.md
-```
-
 ## Auteur
 - Aurelabe
 
@@ -82,7 +71,4 @@ wik_dps_tp02/
 - [Documentation Rust](https://doc.rust-lang.org/)
 - [Docker](https://docs.docker.com/)
 - [Trivy](https://aquasecurity.github.io/trivy/)
-
-## Licence
-Ce projet est sous licence MIT.
 
