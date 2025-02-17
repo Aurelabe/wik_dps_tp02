@@ -4,7 +4,6 @@
 Ce projet est un serveur HTTP simple en Rust, développé dans le cadre du TP02 du module WIK-DPS. Il utilise l'écosystème Rust pour construire et exécuter un serveur qui répond aux requêtes HTTP de base.
 
 ## Objectif du TP
-- Comprendre la construction et l'exécution d'un projet Rust.
 - Créer une image Docker du serveur en utilisant deux approches :
   - **Single-stage build** : Construction et exécution dans une seule image.
   - **Multi-stage build** : Compilation dans une image temporaire puis utilisation d'une image finale allégée pour l'exécution.
